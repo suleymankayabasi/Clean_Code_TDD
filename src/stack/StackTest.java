@@ -94,12 +94,12 @@ public class StackTest {
         stack.push(2);
         int oneIndex = stack.find(1);
         int twoIndex = stack.find(2);
-        assertEquals(1,oneIndex);
-        assertEquals(0,twoIndex);
+        assertEquals(1, oneIndex);
+        assertEquals(0, twoIndex);
     }
 
     @Test
-    public void GivenStackWithNo2_Find2ShouldReturnNull(){
+    public void GivenStackWithNo2_Find2ShouldReturnNull() {
         assertNull(stack.find(2));
     }
 }
